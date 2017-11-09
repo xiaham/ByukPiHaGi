@@ -8,7 +8,7 @@ var bird = {
 	width: 40,
 	height: 40,
 	yVelocity : 0,
-	yAcceleration: 3,
+	yAcceleration: 2,
 	draw : function(){
 		image(image_bird, this.x, this.y, this.width, this.height);
 	},
